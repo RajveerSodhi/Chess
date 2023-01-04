@@ -1,3 +1,4 @@
+package src;
 
 public class Pawn extends Piece {
 	
@@ -50,7 +51,7 @@ public class Pawn extends Piece {
 	// getters
 	@Override
 	public String getName() {
-		return (getColor()? "White ": "Black ") + "Pawn";
+		return (getColor()? "White ": "Black ") + "src.Pawn";
 	}
 
 }

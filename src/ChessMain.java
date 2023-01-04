@@ -1,4 +1,4 @@
-/*
+package src;/*
  * 
  * TO DO:-
  * - figure out alignment of chess board: black pawn, empty spaces, letter coordinates
@@ -17,7 +17,7 @@ public class ChessMain {
 		Scanner in = new Scanner(System.in);
 		
 		@SuppressWarnings("unused")
-		Board board = new Board();														// chess board with static methods
+        Board board = new Board();														// chess board with static methods
 		
 		System.out.println("Welcome to Rajveer's Java Chess Program!");
 		Board.display();
@@ -87,11 +87,11 @@ public class ChessMain {
 			+ "- Checkmate happens when a king is in check with no legal move to escape. This ends the game.\n"
 			+ "\n"
 			+ "--- Movement Rules: ---\n"
-			+ "- King can move one vacant square in any direction. It may castle once per game.\n"
-			+ "- Queen can move any number of vacant squares in any direction.\n"
-			+ "- Rook can move any number of vacant squares vertically or horizontally. It also is moved while castling.\n"
-			+ "- Bishop can move any number of vacant squares in any diagonal direction.\n"
-			+ "- Knight can move one square along any rank/file and then 2 perpendicularly. Its movement can also be viewed as an L.\n"
+			+ "- src.King can move one vacant square in any direction. It may castle once per game.\n"
+			+ "- src.Queen can move any number of vacant squares in any direction.\n"
+			+ "- src.Rook can move any number of vacant squares vertically or horizontally. It also is moved while castling.\n"
+			+ "- src.Bishop can move any number of vacant squares in any diagonal direction.\n"
+			+ "- src.Knight can move one square along any rank/file and then 2 perpendicularly. Its movement can also be viewed as an L.\n"
 			+ "- Pawns can move forward one vacant square. If not yet moved, it may move 2 vacant squares.\n"
 			+ "  It cannot move backward. It kills diagonally forward. It can also perform en passant and promotion.\n"
 			+ "- En Passant occurs when a pawn is moved 2 squares on its initial movement.\n"

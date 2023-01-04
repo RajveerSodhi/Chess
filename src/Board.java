@@ -1,3 +1,7 @@
+package src;
+
+import src.Bishop;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -77,23 +81,23 @@ public class Board {
 		
 	private static void pawnUpgrade(String pieceType, int row, int column, boolean color) {		// upgrades pawn that reaches end of board
 		if (pieceType.equalsIgnoreCase("BISHOP")) {
-			System.out.println("Pawn upgraded to Bishop.");
+			System.out.println("src.Pawn upgraded to src.Bishop.");
 			chessBoard[row][column] = new Bishop(color, row, column);
 		}
 		else if (pieceType.equalsIgnoreCase("ROOK")) {
-			System.out.println("Pawn upgraded to Rook.");
+			System.out.println("src.Pawn upgraded to src.Rook.");
 			chessBoard[row][column] = new Rook(color, row, column);
 		}
 		else if (pieceType.equalsIgnoreCase("KNIGHT")) {
-			System.out.println("Pawn upgraded to Knight.");
+			System.out.println("src.Pawn upgraded to src.Knight.");
 			chessBoard[row][column] = new Knight(color, row, column);
 		}
 		else if (pieceType.equalsIgnoreCase("QUEEN")) {
-			System.out.println("Pawn upgraded to Queen.");
+			System.out.println("src.Pawn upgraded to src.Queen.");
 			chessBoard[row][column] = new Queen(color, row, column);
 		}
 		else {
-			if (pieceType.equalsIgnoreCase("KING")) System.out.print("Cannot upgrade Pawn to King. Try again: ");
+			if (pieceType.equalsIgnoreCase("KING")) System.out.print("Cannot upgrade src.Pawn to src.King. Try again: ");
 			else if (pieceType.equalsIgnoreCase("PAWN")) System.out.print("The piece is already a pawn. Try again: ");
 			else System.out.print("Invalid input. Try again: ");
 			pawnUpgrade(in.nextLine(), row, column, color);
