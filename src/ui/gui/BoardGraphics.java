@@ -1,12 +1,13 @@
-package src.gui;
+package src.ui.gui;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class ChessGame {
-    public static void main(String args[]){
+public class BoardGraphics {
+    public BoardGraphics(){
         JFrame frame = new JFrame();
         frame.setBounds(10,10,512,512);
+        frame.setUndecorated(true);
         JPanel panel = new JPanel(){
             @Override
             public void paint(Graphics g) {

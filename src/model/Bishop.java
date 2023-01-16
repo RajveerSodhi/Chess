@@ -1,4 +1,4 @@
-package src;
+package src.model;
 
 public class Bishop extends Piece {
 	
@@ -30,7 +30,7 @@ public class Bishop extends Piece {
 	// getters
 	@Override
 	public String getName() {
-		return (getColor()? "White ": "Black ") + "src.Bishop";
+		return (getColor()? "White ": "Black ") + "src.model.Bishop";
 		}
 
 }

@@ -1,6 +1,6 @@
-package src;
+package src.model;
 
-import src.Bishop;
+import src.ui.ChessMain;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -81,23 +81,23 @@ public class Board {
 		
 	private static void pawnUpgrade(String pieceType, int row, int column, boolean color) {		// upgrades pawn that reaches end of board
 		if (pieceType.equalsIgnoreCase("BISHOP")) {
-			System.out.println("src.Pawn upgraded to src.Bishop.");
+			System.out.println("src.model.Pawn upgraded to src.model.Bishop.");
 			chessBoard[row][column] = new Bishop(color, row, column);
 		}
 		else if (pieceType.equalsIgnoreCase("ROOK")) {
-			System.out.println("src.Pawn upgraded to src.Rook.");
+			System.out.println("src.model.Pawn upgraded to src.model.Rook.");
 			chessBoard[row][column] = new Rook(color, row, column);
 		}
 		else if (pieceType.equalsIgnoreCase("KNIGHT")) {
-			System.out.println("src.Pawn upgraded to src.Knight.");
+			System.out.println("src.model.Pawn upgraded to src.model.Knight.");
 			chessBoard[row][column] = new Knight(color, row, column);
 		}
 		else if (pieceType.equalsIgnoreCase("QUEEN")) {
-			System.out.println("src.Pawn upgraded to src.Queen.");
+			System.out.println("src.model.Pawn upgraded to src.model.Queen.");
 			chessBoard[row][column] = new Queen(color, row, column);
 		}
 		else {
-			if (pieceType.equalsIgnoreCase("KING")) System.out.print("Cannot upgrade src.Pawn to src.King. Try again: ");
+			if (pieceType.equalsIgnoreCase("KING")) System.out.print("Cannot upgrade src.model.Pawn to src.model.King. Try again: ");
 			else if (pieceType.equalsIgnoreCase("PAWN")) System.out.print("The piece is already a pawn. Try again: ");
 			else System.out.print("Invalid input. Try again: ");
 			pawnUpgrade(in.nextLine(), row, column, color);

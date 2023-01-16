@@ -1,7 +1,4 @@
-package src;
-
-import src.Board;
-import src.Piece;
+package src.model;
 
 public class Rook extends Piece {
 
@@ -28,7 +25,7 @@ public class Rook extends Piece {
 	// getters
 	@Override
 	public String getName() {
-		return (getColor()? "White ": "Black ") + "src.Rook";
+		return (getColor()? "White ": "Black ") + "src.model.Rook";
 		}
 
 }
