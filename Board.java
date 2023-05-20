@@ -62,16 +62,16 @@ public class Board {
 	public static void display() {																// prints the chess board
 		System.out.println();																	// **!! MISALIGNMENT & SPACING ERRORS !!**
 		System.out.println("      A   B   C   D   E   F   G   H");
-		System.out.println("    +-----------------------------------+");
+		System.out.println("    +-------------------------------+");
 		for (int row = 0; row < 8; row++) {
 			System.out.print("  " + (8 - row) + " | ");
 			for (int column = 0; column < 8; column++) {
-				System.out.print(((chessBoard[row][column] != null)? chessBoard[row][column].getRep(): (char) 0x3000) + " | ");
+				System.out.print(((chessBoard[row][column] != null)? chessBoard[row][column].getRep(): ' ') + " | ");
 			}
 			System.out.println((8 - row));
-			if (row < 7) System.out.println("    |-----------------------------------|");
+			if (row < 7) System.out.println("    |-------------------------------|");
 		}
-		System.out.println("    +-----------------------------------+");
+		System.out.println("    +-------------------------------+");
 		System.out.println("      A   B   C   D   E   F   G   H");
 	}
 		
