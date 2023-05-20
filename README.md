@@ -8,4 +8,4 @@ I first created a chess program using Python in senior year of high school to ch
 
 I am keen to see how I can advance my program more once I learn further programming concepts.
 
-The program is fully function as-is, however, plesae do read the Issues section before using it to understand the current drawbacks.
+The program is fully function as-is, however, plesae do keep checking the currently known issues in the Issues section to stay up to date about the program's failures and drawbacks.
