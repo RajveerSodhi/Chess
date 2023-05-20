@@ -1,6 +1,6 @@
 # In-Console Chess
 
-###Program Last Updated: May 2023
+##Program Last Updated: May 2023
 
 This is the second in-Console chess program I have created after [this](https://github.com/RajveerSodhi/Class-12-Chess).
 
