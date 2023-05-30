@@ -20,7 +20,8 @@ ___
 On loading the program, the text output in the console displays a chess board made with UNICODE characters.
 
 <img width="355" alt="image" src="https://github.com/RajveerSodhi/Chess/assets/65150031/a450b13b-cb53-4e83-8930-9025d51382fd">
-*Note that in this image the colors of the chess pieces are inverted due to a dark display theme of the IDE. The set of pieces on the bottom of the board are white.*
+
+_(Note that in this image the colors of the chess pieces are inverted due to a dark display theme of the IDE. The set of pieces on the bottom of the board are white.)_
 
 Each square on the board has a coordinate such as 1A, 2B, and so on uptil 8H. The program asks you to enter the current coordinate of the piece you want to move and then the coordinate of the desitnation square.
 
