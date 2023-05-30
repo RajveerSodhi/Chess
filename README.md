@@ -1,6 +1,8 @@
 # In-Console Chess
 
 **Program Last Updated: May 2023**
+- Fxed Display issues
+- Updated README.md
 
 ___
 
