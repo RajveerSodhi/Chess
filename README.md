@@ -1,7 +1,5 @@
 # In-Console Chess
 
-___
-
 
 ## Introduction
 
@@ -12,8 +10,6 @@ I first created a chess program using Python in my senior year of high school to
 I am keen to see how I can advance my program more once I learn further programming concepts.
 
 The program is fully functioning as-is, however, please do keep checking the currently known issues in the Issues section to stay up to date about the program's failures and drawbacks.
-
-___
 
 
 ## Walkthrough
@@ -40,8 +36,6 @@ Typing in "rules" at any point displays all the rules to use the program and cla
 
 <img width="1596" alt="image" src="https://github.com/RajveerSodhi/Chess/assets/65150031/1a5f6fc3-99e7-4300-bd1b-f438a497731e">
 
-___
-
 
 ## Future Development Ideas
 
@@ -53,8 +47,6 @@ This program is far from complete. I want to add several features over time, inc
 - Single Player Mode against the computer
 - A mode which shows suggested moves which help people learn the game
 - Generation of an exportable transcript of each game and a GUI to access all stored transcripts on the computer, along with a leaderboard based on them
-
-___
 
 
 ## Updates and Fixes
