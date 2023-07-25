@@ -3,20 +3,7 @@
 ___
 
 
-## Updates and Fixes
-
-**July 2023**
-- Added game rules to a .txt file
-- Updated README.md
-
-**May 2023**
-- Fixed display issues
-- Updated README.md
-
-**July 2022**
-- Uploaded Project Files to GitHub
-
-___
+## Introduction
 
 This is the second in-Console chess program I have created after [this](https://github.com/RajveerSodhi/Class-12-Chess).
 
@@ -29,7 +16,7 @@ The program is fully functioning as-is, however, please do keep checking the cur
 ___
 
 
-## Introduction
+## Walkthrough
 
 On loading the program, the text output in the console displays a chess board made with UNICODE characters.
 
@@ -55,6 +42,7 @@ Typing in "rules" at any point displays all the rules to use the program and cla
 
 ___
 
+
 ## Future Development Ideas
 
 This program is far from complete. I want to add several features over time, including some of the following:
@@ -65,3 +53,19 @@ This program is far from complete. I want to add several features over time, inc
 - Single Player Mode against the computer
 - A mode which shows suggested moves which help people learn the game
 - Generation of an exportable transcript of each game and a GUI to access all stored transcripts on the computer, along with a leaderboard based on them
+
+___
+
+
+## Updates and Fixes
+
+**July 2023**
+- Added game rules to a .txt file
+- Updated README.md
+
+**May 2023**
+- Fixed display issues
+- Updated README.md
+
+**July 2022**
+- Uploaded Project Files to GitHub
